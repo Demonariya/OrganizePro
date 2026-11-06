@@ -1,0 +1,7 @@
+# Core file monitoring and Windows desktop integration
+watchdog>=4.0.0
+pystray>=0.19.5
+Pillow>=10.0.0
+winotify>=1.1.0; platform_system == "Windows"
+pyinstaller>=6.10.0; platform_system == "Windows"
+pytest>=8.0.0
